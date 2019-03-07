@@ -454,7 +454,7 @@ a:hover{
 
 .row2{
     display: -webkit-flex;
-    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
 }
@@ -574,4 +574,9 @@ a:hover{
 #myDiv {
   display: none;
   text-align: center;
+}
+
+.floatLeft{
+  float: left;
+  width: 40%;
 }
