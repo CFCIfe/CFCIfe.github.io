@@ -1,23 +1,33 @@
-html, body{
+html,
+body {
   margin: 0;
   padding: 0;
   min-width: 100%;
   overflow-x: hidden;
 }
 
-body{
+body {
   background-color: #fffdd0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
+.btn {
+  margin-bottom: 10px;
+}
+
+input[type="submit"].btn-block {
+  width: 50%;
+  margin: 10px auto;
+}
+
 .set-pad {
-  padding-top:35px;
+  padding-top: 35px;
 }
 
 .set-row-pad {
-  padding-top:30px;
-  padding-bottom:50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .logo-custom {
@@ -25,7 +35,7 @@ body{
 }
 
 #menu {
-  background-color: rgba(0 , 143, 17, 1);
+  background-color: rgba(0, 143, 17, 1);
   color: #fffdd0;
   font-size: 12px;
   font-weight: 900;
@@ -34,104 +44,106 @@ body{
   padding: 8px;
 }
 
-.navbar:hover{
-  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+.navbar:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
 
 .navbar-inverse {
   border-color: transparent;
 }
 
-.navbar-inverse .navbar-caption-wrap > a:hover{
+.navbar-inverse .navbar-caption-wrap > a:hover {
   color: black;
 }
 
-  .navbar-inverse .navbar-nav > li > a{
-      color: #fffdd0;
-      padding: 22px 10px;
-  }
-  
-  .navbar-inverse .navbar-nav > li > a:hover {
+.navbar-inverse .navbar-nav > li > a {
+  color: #fffdd0;
+  padding: 22px 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
   color: black;
 }
 
 /*=====================================
   HOME STYLES 
     ===================================*/
-    .home-sec {
-      background: url(../images/logo.jpg) no-repeat center center;
-      padding: 0;
-      -webkit-background-size: 500px 350px;;
-      background-size: 500px 350px;
-      color: #fffdd0;
-      background-attachment: fixed;
-  }
-  
-      .home-sec .overlay {
-          background:rgba(0, 143, 17, 0.89);
-          min-height: 500px;
-      }
-  
-      .home-sec h1 {
-          color: #fffdd0;
-          font-weight: 900;
-          font-size: 50px;
-          text-transform: uppercase;
-          padding-bottom: 10px;
-      }
-      
-      .home-sec h2 {
-        text-transform: uppercase;
-        padding-bottom: 10px;
-    }
+.home-sec {
+  background: url(../images/logo.jpg) no-repeat center center;
+  padding: 0;
+  -webkit-background-size: 500px 350px;
+  background-size: 500px 350px;
+  color: #fffdd0;
+  background-attachment: fixed;
+}
 
-      .home-sec h3 {
-          text-transform: uppercase;
-          margin-bottom: 10px;
-      }
-  
-  
-  
-  .set-flexi {
-      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
-      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
-      -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
-      background-color: transparent;
-      border: 0px solid #000;
-      padding-top: 120px;
-  }
-  
-  .flex-control-nav {
-      display: none!important;
-  }
-  
-  .set-flexi a {
-      margin: 5px;
-  }
-  /*=====================================
+.home-sec .overlay {
+  background: rgba(0, 143, 17, 0.89);
+  min-height: 500px;
+}
+
+.home-sec h1 {
+  color: #fffdd0;
+  font-weight: 900;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.home-sec h2 {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.home-sec h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.set-flexi {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+  -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+  background-color: transparent;
+  border: 0px solid #000;
+  padding-top: 120px;
+}
+
+.flex-control-nav {
+  display: none !important;
+}
+
+.set-flexi a {
+  margin: 5px;
+}
+/*=====================================
     HEADER LINE STYLES 
       ===================================*/
-  .header-line {
-      font-weight: 900;
-      font-size: 25px;
-      padding-bottom: 5px;
-      padding-top: 25px;
-      color: #000;
-    }
-  
-  h1::after {
-      content: " ";
-      border: solid 2px #000;
-      display: block;
-      width: 200px;
-      margin: 12px auto;
-  }
+.header-line {
+  font-weight: 900;
+  font-size: 25px;
+  padding-bottom: 5px;
+  padding-top: 25px;
+  color: #000;
+}
 
-  /*=====================================
+h1::after {
+  content: " ";
+  border: solid 2px #000;
+  display: block;
+  width: 200px;
+  margin: 12px auto;
+}
+
+/*=====================================
   TAG LINE STYLES 
     ===================================*/
 
@@ -140,387 +152,382 @@ body{
   color: #000;
 }
 
-  .tag-line h2 {
-      font-size: 20px;
-      font-weight: 900;
-      padding: 5px 10px 10px 5px;
-      color: #fffdd0;
-  }
+.tag-line h2 {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 5px 10px 10px 5px;
+  color: #fffdd0;
+}
 
-      .tag-line h2 > i {
-          margin-left: 8px;
-          margin-right: 8px;
-      }
+.tag-line h2 > i {
+  margin-left: 8px;
+  margin-right: 8px;
+}
 
-      .about-div {
-        padding: 30px;
-    }
-    
-    .icon-round-border {
-        border: 10px double #fffdd0;
-        color: #fffdd0;
-        text-align: center;
-        padding-top: 15px;
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        cursor: pointer;
-        -webkit-transition: 0.3s;
-        -moz-transition: 0.3s;
-        -o-transition: 0.3s;
-        transition: 0.3s;
-    }
-    
-        .icon-round-border:hover {
-            color: green;
-            border: 10px double green;
-            background-color: #fffdd0;
-            -webkit-transition: 0.3s;
-            -moz-transition: 0.3s;
-            -o-transition: 0.3s;
-            transition: 0.3s;
-        }
-    
-    .about-div hr {
-        border: 1px solid #fffdd0;
-    }
-    
-    .about-div h3 {
-        font-size: 25px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-    
-    .about-div p {
-        padding-top: 10px;
-    }
-    
-    .btn-set {
-        border-radius: 0px;
-        -webkit-border-radius: 0px;
-        -moz-border-radius: 0px;
-        margin-bottom: 20px;
-    }
-    /* FEATURES STYLES */
-    #features-sec {
-        background-color: green;
-        color: #fffdd0;
-    }
-    /*=====================================
+.about-div {
+  padding: 30px;
+}
+
+.icon-round-border {
+  border: 10px double #fffdd0;
+  color: #fffdd0;
+  text-align: center;
+  padding-top: 15px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.icon-round-border:hover {
+  color: green;
+  border: 10px double green;
+  background-color: #fffdd0;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.about-div hr {
+  border: 1px solid #fffdd0;
+}
+
+.about-div h3 {
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about-div p {
+  padding-top: 10px;
+}
+
+.btn-set {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  margin-bottom: 20px;
+}
+/* FEATURES STYLES */
+#features-sec {
+  background-color: green;
+  color: #fffdd0;
+}
+/*=====================================
       articles STYLES 
       ===================================*/
-    #articles-sec {
-        background-color: #fffdd0;
-        color: black;
-    }
-    
-    #articles-sec .header-line {
-        color: black;
-    }
-    
-    #zone {
-        color: black;
-        font-size:2em;
-        border-radius:20px;
-        border:1px solid none;
-        transition: all 0.3s linear;
-        float: left;
-    }
+#articles-sec {
+  background-color: #fffdd0;
+  color: black;
+}
 
-  .grid-wrapper{
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
-  }
-  .box > img{
-    max-width: 100%;
-    height: auto;
-  }
+#articles-sec .header-line {
+  color: black;
+}
 
-  p > a{
-    color: black;
-    font-size: 2rem;
-    text-align: left;
-    cursor: pointer;
-  }
+#zone {
+  color: black;
+  font-size: 2em;
+  border-radius: 20px;
+  border: 1px solid none;
+  transition: all 0.3s linear;
+  float: left;
+}
 
-  p > a:hover{
-    color: green;
-  }
+.grid-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+}
+.box > img {
+  max-width: 100%;
+  height: auto;
+}
 
-  p > a:hover span{
-    color: white;
-  }
+p > a {
+  color: black;
+  font-size: 2rem;
+  text-align: left;
+  cursor: pointer;
+}
 
-  .box{
-    background-color: #fffdd0;
-    border: 1px solid none;
-    padding: 10px;
-    margin: 20px;
-    float: left;
-  }
-  .box:hover {
-    -webkit-transform: rotate(-7deg);
-    -moz-transform: rotate(-7deg);
-    -o-transform: rotate(-7deg);
-    transform: rotate(-7deg);
-  }
-    /*=======================
+p > a:hover {
+  color: blue;
+}
+
+p > a:hover span {
+  color: white;
+}
+
+.box {
+  background-color: #fffdd0;
+  border: 1px solid none;
+  padding: 10px;
+  margin: 20px;
+  float: left;
+}
+.box:hover {
+  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+/*=======================
       CONTACT STYLES 
       ===================================*/
-    #contact-sec {
-        padding-top: 10px;
-        padding-bottom: 60px;
-        padding: 0;
-        -webkit-background-size: cover;
-        background-size: cover;
-        color: #fffdd0;
-        background-attachment: fixed;
-    }
-    
-    #contact-sec .overlay {
-            background: green;
-            min-height: 600px;
-        }
-    
-        #contact-sec h1 {
-            color:#fffdd0;
-        }
-    #contact-sec .form-control{
-        background-color:rgba(255, 255, 255, 0);
-        color:#fffdd0;
-    }
-    /*=====================================
+#contact-sec {
+  padding-top: 10px;
+  padding-bottom: 60px;
+  padding: 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #fffdd0;
+  background-attachment: fixed;
+}
+
+#contact-sec .overlay {
+  background: green;
+  min-height: 600px;
+}
+
+#contact-sec h1 {
+  color: #fffdd0;
+}
+#contact-sec .form-control {
+  background-color: rgba(255, 255, 255, 0);
+  color: #fffdd0;
+}
+/*=====================================
       Footer STYLES 
       ===================================*/
-    #footer {
-        padding:5px 20px;
-        background-color:#000;
-        text-align:right;
-        color:white;
-        font-size:15px;
-    }
-
-    * {
-      box-sizing: border-box;
-      box-sizing: border-box;
-      padding: 0;
-      margin: 0;
-      border: none;
-      text-decoration: none;
-      list-style: none;
-    }
-    
-    /* Position the image container (needed to position the left and right arrows) */
-    .imgcontainer {
-      position: relative;
-    }
-    
-    /* Hide the images by default */
-    .mySlides {
-      display: none;
-    }
-    
-    /* Add a pointer when hovering over the thumbnail images */
-    .cursor {
-      cursor: pointer;
-    }
-    
-    /* Next & previous buttons */
-    .prev,
-    .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 5px;
-      color: red;
-      font-size: 50px;
-      border-radius: 0 10px 10px 0;
-      user-select: none;
-      -webkit-user-select: none;
-    }
-    
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-    
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover,
-    .next:hover {
-      background-color: green;
-    }
-    
-    /* Number text (1/3 etc) */
-    .numbertext {
-      color: green;
-      font-size: 0;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-    
-    /* Container for image text */
-    .caption-container {
-      text-align: center;
-      background-color: #fffdd0;
-      padding: 2px 16px;
-      color: black;
-    }
-    
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    
-    /* Six columns side by side */
-    .column {
-      float: left;
-      width: 16.66%;
-    }
-    
-    /* Add a transparency effect for thumnbail images */
-    .demo {
-      opacity: 0.6;
-    }
-    
-    .active,
-    .demo:hover {
-      opacity: 1;
-    }
-
-.btn-info{
-    background-color: #fffdd0;
-    border-color: #fffdd0;
-    color: #a52a2a;
+#footer {
+  padding: 5px 20px;
+  background-color: #000;
+  text-align: right;
+  color: white;
+  font-size: 15px;
 }
 
-.btn-info:hover{
-    background-color: black;
-    border: black;
+* {
+  box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  text-decoration: none;
+  list-style: none;
 }
 
-.black{
-    background-color: black;
-    color: white;
+/* Position the image container (needed to position the left and right arrows) */
+.imgcontainer {
+  position: relative;
 }
 
-a{
-    color: black;
+/* Hide the images by default */
+.mySlides {
+  display: none;
 }
 
-a:hover{
-    color : #617479;
-    text-decoration: none;
-} 
-
-.big-font{
-    font-size: 18px !important;
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
 }
 
-.btn-danger{
-    background-color: red !important;
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  color: rgb(0, 127, 0);
+  padding: 5px;
+  font-size: 50px;
+  border-radius: 0 10px 10px 0;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
-#footer-sec{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color:green;
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-.media-container{
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    align-items: center;
+/* On hover, add a black background color with a little bit see-through */
+.prev :hover,
+.next :hover {
+  color: rgb(134, 235, 134);
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: green;
+  font-size: 0;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-.align-right{
-    text-align: right;
-} 
-
-.align-center{
-    text-align: center;
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #fffdd0;
+  padding: 2px 16px;
+  color: black;
 }
 
-.text-white{
-    color: white;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.row2{
-    display: -webkit-flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
 }
 
-.row-links{
-    width: 100%;
-    -webkit-justify-content: center;
-    justify-content: center;
+/* Add a transparency effect for thumbnail images */
+.demo {
+  opacity: 0.6;
 }
 
-.foot-menu{
-    list-style: none;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0;
-    margin-bottom: 0;
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.btn-info {
+  background-color: #fffdd0;
+  border-color: #fffdd0;
+  color: #a52a2a;
+}
+
+.btn-info:hover {
+  background-color: black;
+  border: black;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #617479;
+  text-decoration: none;
+}
+
+.big-font {
+  font-size: 18px !important;
+}
+
+#footer-sec {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: green;
+}
+
+.media-container {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.row2 {
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row-links {
+  width: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.foot-menu {
+  list-style: none;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .foot-menu li {
-    padding: 0 1em 1em 1em;
+  padding: 0 1em 1em 1em;
 }
 
 .foot-menu li p {
-    margin: 0;
+  margin: 0;
 }
 
-.display-7{
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
+.display-7 {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .social-row {
-    width: 100%;
-    -webkit-justify-content: center;
-    justify-content: center;
+  width: 100%;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 .social-list {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
 }
 
-.pb-2{
-    padding-bottom: .5rem !important;
+.pb-2 {
+  padding-bottom: 0.5rem !important;
 }
 
-.soc-item{
-    margin: 0.5rem;
+.soc-item {
+  margin: 0.5rem;
 }
 
-.mbr-iconfont-social{
-    font-size: 20px;
-    color: #fff;
+.mbr-iconfont-social {
+  font-size: 20px;
+  color: #fff;
 }
 
-.container{
+.container {
   width: auto;
 }
 
@@ -543,13 +550,21 @@ a:hover{
 }
 
 @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* Add animation to "page content" */
@@ -558,17 +573,29 @@ a:hover{
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 1s;
   animation-name: animatebottom;
-  animation-duration: 1s
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
 }
 
 #myDiv {
@@ -576,7 +603,7 @@ a:hover{
   text-align: center;
 }
 
-.floatLeft{
+.floatLeft {
   float: left;
   width: 40%;
 }
